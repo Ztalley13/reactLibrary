@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.well-block {
+    background-color: #fff;
+    border: 1px solid #e9e6e8;
+    padding: 40px;
+}
+
+.well-title {
+    margin-bottom: 40px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.thumbnail {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.thumbnail:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 768px) {
+    #book-card { /* scrolling card list */
+      max-height: 500px;
+      overflow: hidden;
+      overflow-y: auto;
+      margin-bottom: 25px;
+    }
+}
+
+.input-field {
+  margin-top: 25px;
+}
+
+.input-tags span {
+  background: #eee;
+  border-radius: 3px 0 0 3px;
+  font-weight: bolder;
+  color: #999;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 23px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  -webkit-transition: color 0.2s;
+}
+
+.input-tags span:hover {
+  background-color: #0C0C0C;
+  color: white;
+}
+
+.input-tags span > a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #999;
+}
+
+.input-tags span > a:hover {
+  color: white;
+}
+
+.react-rater-star {
+  font-size: 30px;
+}
+
+.react-rater-star.will-be-active {
+  color: #FFE300 !important;
+}
+
+.react-rater-star.is-active {
+  color: #FFE300 !important;
+}
